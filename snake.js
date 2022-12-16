@@ -4,21 +4,20 @@ function init(){
 	pen = canvas.getContext('2d');
 	cs = 66;
 	game_over = false;
-	score = 5;
+	score = 0;
 
 
 	//Create a Image Object for food
 	food_img = new Image();
-	food_img.src = "https://drive.google.com/file/d/1MaTo5V_EzwB5EYKJTTE3nv7eEd2nTLJs/view?usp=share_link";
-
+	food_img.src = "https://hosting.photobucket.com/images/i/VARUNd_96/apple.png?width=320&height=320&fit=bounds";
 	trophy = new Image();
-	trophy.src = "https://drive.google.com/file/d/1tqnQ0YfbWafXCwdZrZ6XCG5NyCpyiwt8/view?usp=share_link";
+	trophy.src = "https://hosting.photobucket.com/images/i/VARUNd_96/trophy.png?width=320&height=320&fit=bounds";
 
 	food = getRandomFood();
 
 	snake = {
-		init_len:5,
-		color:"blue",
+		init_len:2,
+		color:"aqua",
 		cells:[],
 		direction:"right",
 
