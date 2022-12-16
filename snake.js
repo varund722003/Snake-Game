@@ -9,10 +9,10 @@ function init(){
 
 	//Create a Image Object for food
 	food_img = new Image();
-	food_img.src = "images/apple.png";
+	food_img.src = "https://drive.google.com/file/d/1MaTo5V_EzwB5EYKJTTE3nv7eEd2nTLJs/view?usp=share_link";
 
 	trophy = new Image();
-	trophy.src = "images/trophy.png";
+	trophy.src = "https://drive.google.com/file/d/1tqnQ0YfbWafXCwdZrZ6XCG5NyCpyiwt8/view?usp=share_link";
 
 	food = getRandomFood();
 
