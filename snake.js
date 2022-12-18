@@ -9,9 +9,9 @@ function init(){
 
 	//Create a Image Object for food
 	food_img = new Image();
-	food_img.src = "https://hosting.photobucket.com/images/i/VARUNd_96/apple.png?width=320&height=320&fit=bounds";
+	food_img.src = "https://github.com/coding-blocks-archives/data-structures-in-real-life/blob/master/Snake%20Game/Assets/apple.png?raw=true";
 	trophy = new Image();
-	trophy.src = "https://hosting.photobucket.com/images/i/VARUNd_96/trophy.png?width=320&height=320&fit=bounds";
+	trophy.src = "https://github.com/coding-blocks-archives/data-structures-in-real-life/blob/master/Snake%20Game/Assets/trophy.png?raw=true";
 
 	food = getRandomFood();
 
